@@ -22,13 +22,13 @@ Before installing, make sure you have NPM and Node.js installed on your machine.
 **1. Clone the repository:**
 
 ```shell
-git clone git@github.com:nbayramberdiyev/awesome-tr-cafe.git
+git clone git@github.com:kostasx/awesome-gr-cafe.git
 ```
 
 **2. Go to the `tools` folder:**
 
 ```shell
-cd awesome-tr-cafe/tools
+cd awesome-gr-cafe/tools
 ```
 
 **3. Install the dependencies:**
