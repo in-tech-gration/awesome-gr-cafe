@@ -1,8 +1,10 @@
-# Awesome TR Café
+# Awesome GR Café
 
 ![housekeeping](https://github.com/nbayramberdiyev/awesome-tr-cafe/actions/workflows/housekeeping.yml/badge.svg)
 
 This repo contains a list of awesome cafés available for work.
+
+Forked from and inspired by [Awesome TR Café](https://github.com/nbayramberdiyev/awesome-tr-cafe)
 
 Different marker colors represent different download speeds.
 
@@ -25,7 +27,11 @@ Different marker colors represent different download speeds.
 
 Click the link below to view it on GitHub.
 
-* [İstanbul (16)](istanbul.geojson)
+* [Athens (1)](athens.geojson)
+
+## Other countries
+
+* [Turkey](https://github.com/nbayramberdiyev/awesome-tr-cafe)
 
 ## Contributing
 

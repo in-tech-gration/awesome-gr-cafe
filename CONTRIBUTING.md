@@ -2,7 +2,7 @@
 
 First of all, thank you for taking the time to contribute! 😄
 
-Feel free to submit a pull request to add cafés you've been to. Please, obtain the internet speed (download speed and speedtest link) and the coordinates (latitude and longitude) of the café and then add them to the corresponding [geoJSON](http://geojson.org/geojson-spec.html) file. If your city doesn't exist in the repo, create a new geoJSON file. For the format, see [istanbul.geojson](istanbul.geojson).
+Feel free to submit a pull request to add cafés you've been to. Please, obtain the internet speed (download speed and speedtest link) and the coordinates (latitude and longitude) of the café and then add them to the corresponding [geoJSON](http://geojson.org/geojson-spec.html) file. If your city doesn't exist in the repo, create a new geoJSON file. For the format, see [athens.geojson](athens.geojson).
 
 - **Internet Speed:** Please use [Speedtest](https://www.speedtest.net) to test the speed and performance of the internet connection.
 - **Schema:**
