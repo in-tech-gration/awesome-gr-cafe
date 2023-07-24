@@ -5,6 +5,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Little Tree Books & Coffee",
+        "Accessible": "-",
         "Download Speed": "50 Mbps",
         "Speedtest Link": "https://www.speedtest.net/result/?",
         "Comment (@kostasx)": "Limited to 1 hour of Wifi usage. Download speed needs to be checked.",
@@ -17,6 +18,26 @@
         "coordinates": [
           23.727021748356883,
           37.96823062136099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kinono",
+        "Accessible": "YES",
+        "Download Speed": "_ Mbps",
+        "Speedtest Link": "https://www.speedtest.net/result/?",
+        "Comment (@kostasx)": "An extension cord is required to charge your device if you are sitting in a table that's far away from the power plug outlet.",
+        "marker-color": "#50C240",
+        "marker-symbol": "cafe",
+        "website": "https://www.facebook.com/kinonobar/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.725816653642916,
+          37.96480752042547
         ]
       }
     }
