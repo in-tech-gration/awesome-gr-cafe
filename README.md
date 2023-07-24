@@ -32,6 +32,7 @@ Click the link below to view it on GitHub.
 ## Other countries
 
 * [Turkey](https://github.com/nbayramberdiyev/awesome-tr-cafe)
+* [China](https://github.com/ElaWorkshop/awesome-cn-cafe)
 
 ## Contributing
 
