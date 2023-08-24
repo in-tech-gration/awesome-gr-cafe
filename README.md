@@ -27,7 +27,7 @@ Different marker colors represent different download speeds.
 
 Click the link below to view it on GitHub.
 
-- [Athens (3)](athens.geojson)
+- **Athens (3)** _[Click here](athens.geojson) to see the map_
   - [Starbucks Hilton ♿](https://goo.gl/maps/GaNChWALb9Eth4yj6)
   - [Kinono ♿](https://www.facebook.com/kinonobar/)
   - [Little Tree Books & Coffee](https://www.facebook.com/LittleTreeBooksandCoffee/)
