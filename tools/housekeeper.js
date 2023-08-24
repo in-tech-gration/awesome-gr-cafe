@@ -41,7 +41,6 @@ cities.forEach((city) => {
   */
 
   // match the number after the city name e.g. [İstanbul (34)](istanbul.geojson)
-  console.log({ city });
   // const matched = readmeContent.match(`\\((\\d+)\\)\\]\\(${city}`) // DEPRECATED
   const titleCaseCity = city[0].toUpperCase() + city.slice(1).toLowerCase();
   const regexStr = `\\*\\*${titleCaseCity} \\((\\d+)\\)\\*\\*`;
@@ -56,7 +55,6 @@ cities.forEach((city) => {
 
     const re = new RegExp(regexStr)
     const replacement = `**${titleCaseCity} (${cityGeoJson.features.length})**`;
-    console.log({ replacement });
     readmeContent = readmeContent.replace(readmeContent.match(re)[0], replacement)
   }
 
