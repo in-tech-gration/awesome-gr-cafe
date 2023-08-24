@@ -1,5 +1,7 @@
 # Awesome GR Café
 
+![](assets/athenian.cafes.png)
+
 ![housekeeping](https://github.com/nbayramberdiyev/awesome-tr-cafe/actions/workflows/housekeeping.yml/badge.svg)
 
 This repo contains a list of awesome cafés available for work.

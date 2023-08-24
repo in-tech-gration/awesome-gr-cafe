@@ -30,6 +30,7 @@
         "Accessible": "YES",
         "Download Speed": "50 Mbps",
         "Speedtest Link": "https://www.speedtest.net/result/?",
+        "Speedtest screenshot": "https://github.com/in-tech-gration/awesome-gr-cafe/tree/main/assets/speedtest.starbucks.hilton.jpg",
         "Comment (@kostasx)": "Use the Guest WiFi. Connect and fill-in the CAPTCHA in the popup. No password required.",
         "marker-color": "#50C240",
         "marker-symbol": "cafe",
