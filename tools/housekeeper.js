@@ -40,7 +40,7 @@ cities.forEach((city) => {
   |--------------------------------------------------------------------------
   */
 
-  // match the number after the city name e.g. [İstanbul (34)](istanbul.geojson)
+  // match the number after the city name e.g. - **Athens (3)**
   // const matched = readmeContent.match(`\\((\\d+)\\)\\]\\(${city}`) // DEPRECATED
   const titleCaseCity = city[0].toUpperCase() + city.slice(1).toLowerCase();
   const regexStr = `\\*\\*${titleCaseCity} \\((\\d+)\\)\\*\\*`;

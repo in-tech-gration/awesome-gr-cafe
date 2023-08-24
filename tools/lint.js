@@ -13,8 +13,12 @@ cities.every((city) => {
   const cityGeoJsonPath = resolve(ROOT_DIR, city + GEOJSON_EXT)
   const cityGeoJson = JSON.parse(readFileSync(cityGeoJsonPath, 'utf8'))
 
-  // match the number before the city name e.g. [İstanbul (34)](istanbul.geojson)
-  const matched = readmeContent.match(`\\((\\d+)\\)\\]\\(${city + GEOJSON_EXT.replace('.', '\\.')}\\)`)
+  // match the number after the city name e.g. - **Athens (3)**
+  const titleCaseCity = city[0].toUpperCase() + city.slice(1).toLowerCase();
+  const regexStr = `\\*\\*${titleCaseCity} \\((\\d+)\\)\\*\\*`;
+
+  const matched = readmeContent.match(regexStr)
+
   assert(matched, `${city}: Not linked in README.md file.`)
   const cafes = parseInt(matched[1], 10)
 
