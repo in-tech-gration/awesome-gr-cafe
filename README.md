@@ -27,7 +27,7 @@ Different marker colors represent different download speeds.
 
 Click the link below to view it on GitHub.
 
-- [Athens (2)](athens.geojson)
+- [Athens (3)](athens.geojson)
   - [Kinono ♿](https://www.facebook.com/kinonobar/)
   - [Little Tree Books & Coffee](https://www.facebook.com/LittleTreeBooksandCoffee/)
 
