@@ -44,7 +44,8 @@ cities.forEach((city) => {
   console.log({ city });
   // const matched = readmeContent.match(`\\((\\d+)\\)\\]\\(${city}`) // DEPRECATED
   const titleCaseCity = city[0].toUpperCase() + city.slice(1).toLowerCase();
-  const matched = readmeContent.match(`\\*\\*${titleCaseCity} \\((\\d+)\\)\\*\\*`)
+  const regexStr = `\\*\\*${titleCaseCity} \\((\\d+)\\)\\*\\*`;
+  const matched = readmeContent.match( regexStr );
   // - **Athens (3)**
   assert(matched, `${titleCaseCity} does not exist in README.md file.`)
   const cafes = parseInt(matched[1], 10)
@@ -53,8 +54,10 @@ cities.forEach((city) => {
     console.log(chalk.red('%s: Found inconsistent number of cafés. Found %d, actual %d.'), city, cityGeoJson.features.length, cafes)
     console.log(chalk.yellow('%s: Updating README.md file, don’t forget to commit it!'), city)
 
-    const re = new RegExp(`(.*)\\((\\d+)\\)\\]\\((${city})`)
-    readmeContent = readmeContent.replace(re, `$1(${cityGeoJson.features.length})]($3`)
+    const re = new RegExp(regexStr)
+    const replacement = `**${titleCaseCity} (${cityGeoJson.features.length})**`;
+    console.log({ replacement });
+    readmeContent = readmeContent.replace(readmeContent.match(re)[0], replacement)
   }
 
   console.log(chalk.black.bgGreen(' %s: Done with %d records! ') + ' 🤙', city, cityGeoJson.features.length)
