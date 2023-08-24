@@ -41,8 +41,12 @@ cities.forEach((city) => {
   */
 
   // match the number after the city name e.g. [İstanbul (34)](istanbul.geojson)
-  const matched = readmeContent.match(`\\((\\d+)\\)\\]\\(${city}`)
-  assert(matched, `${city} does not exist in README.md file.`)
+  console.log({ city });
+  // const matched = readmeContent.match(`\\((\\d+)\\)\\]\\(${city}`) // DEPRECATED
+  const titleCaseCity = city[0].toUpperCase() + city.slice(1).toLowerCase();
+  const matched = readmeContent.match(`\\*\\*${titleCaseCity} \\((\\d+)\\)\\*\\*`)
+  // - **Athens (3)**
+  assert(matched, `${titleCaseCity} does not exist in README.md file.`)
   const cafes = parseInt(matched[1], 10)
 
   if (cafes !== cityGeoJson.features.length) {
