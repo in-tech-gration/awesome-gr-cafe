@@ -1,4 +1,4 @@
-# Awesome GR Café
+# Awesome coffee shops and accessible working spaces in Greece
 
 ![](assets/athenian.cafes.png)
 
